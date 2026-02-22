@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 420px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    color: #555;
+    margin: 6px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.guessField {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.guessField:focus {
+    border-color: #dd2476;
+}
+
+.guessSubmit {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #dd2476;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.guessSubmit:hover {
+    background: #c01f65;
+}
+
+.resultParas {
+    margin-top: 20px;
+    background: #f8f0f3;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.guesses {
+    font-weight: bold;
+    color: #dd2476;
+}
+
+.lastResult {
+    font-weight: bold;
+}
+
+.lowOrHi h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.button {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#newGame {
+    font-size: 18px;
+    color: white;
+    background: #2575fc;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#newGame:hover {
+    background: #1a5fe0;
+}
